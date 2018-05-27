@@ -14,6 +14,8 @@ Sometimes that will mean making tradeoffs on the Pareto-optimal front between co
 (that favor engagingness). 
 If you disagree with our choices concerning these tradeoffs, I have a stack of phone books to sell you.
 
+Throughout these tutorials we are going to use Python3. That's mainly because given the choice, it's better to invest in skills that will be useful in the foreseeable, not in recently departed past. 
+
 
 ## Table of contents
 
