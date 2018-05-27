@@ -1,4 +1,4 @@
-# Python (so easy) Wow!
+# Python, so easy, wow!
 
 Welcome to Python So Easy Wow.
 The idea for this repo is to teach Python quickly and easily.
