@@ -1,9 +1,9 @@
-# Python So Easy Wow! `python-wow`
+# Python (so easy) Wow!
 
 Welcome to Python So Easy Wow.
 The idea for this repo is to teach Python quickly and easily.
 Ideally, you will learn Python so quickly,
-it will be as fast as *you wish* a flight on Wow airlines might be.
+it should be as fast as *you wish* a flight on Wow airlines might be.
 
 Many books out there aim at comprehensiveness. 
 The downside is that they are boring. 
