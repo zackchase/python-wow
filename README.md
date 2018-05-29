@@ -19,7 +19,8 @@ Throughout these tutorials we are going to use Python3. That's mainly because gi
 
 These materials are prepared by Zachary Lipton, 
 with help from the open source community,
-as course materials for the Introduction to Python and R course as part of [the Carnegie Mellon Tepper School of Business' MSBA program](https://analytics.tepper.cmu.edu/). 
+as course materials for the Introduction to Python and R course as part of the
+[MSBA program at the Carnegie Mellon University Tepper School of Business'](https://analytics.tepper.cmu.edu/). 
 
 ## Table of contents
 
