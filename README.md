@@ -61,9 +61,9 @@ as course materials for the Introduction to Python and R course as part of the
  * Classes Synthesis -- Practice Questions
 
 ### Numerical Python with NumPy
- * The NumPy library
- * Vectors, matrices, and tensors
- * Numerical Python Synthesis -- Practice Questions
+ * The NumPy Library
+ * Vectors, Matrices, and Tensors
+ * NumPy Practice Questions
 
 
 ### Python projects
