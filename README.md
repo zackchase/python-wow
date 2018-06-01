@@ -31,19 +31,19 @@ as course materials for the Introduction to Python and R course as part of the
  * [Strings](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/sec04_strings.ipynb)
  * [Numbers (and Arithmetic)](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/sec05_numbers_arithmetic.ipynb)
  * [Booleans (and Logic)](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/sec06_boolean_logic.ipynb)
- * Introduction Practice Questions (COMING SOON)
+ * Practice Questions (COMING SOON)
 
 ### Collections
  * [Lists](https://github.com/zackchase/python-wow/blob/master/chapter02_collections/sec01_lists.ipynb)
  * [Dictionaries](https://github.com/zackchase/python-wow/blob/master/chapter02_collections/sec02_dictionaries.ipynb)
- * Collections Practice Questions (COMING SOON)
+ * Practice Questions (COMING SOON)
 
 
 ### Control Flow
  * Conditionals (if-then-else)
  * Looping
  * List Comprehensions
- * Control Flow Practice Questions
+ * Practice Questions
 
 ### IO
  * Reading and Writing Files
@@ -53,17 +53,17 @@ as course materials for the Introduction to Python and R course as part of the
 ### Functions
  * Introduction to Functions
  * Recursion
- * Functions Synthesis -- Practice Questions
+ * Practice Questions
 
 ### Classes
  * Introduction to Object Oriented Programming
  * Classes
- * Classes Synthesis -- Practice Questions
+ * Practice Questions
 
 ### Numerical Python with NumPy
  * The NumPy Library
  * Vectors, Matrices, and Tensors
- * NumPy Practice Questions
+ * Practice Questions
 
 
 ### Python projects
