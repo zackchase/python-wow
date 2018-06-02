@@ -42,7 +42,7 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
 
 
 ### Control Flow
- * Conditionals (if-then-else)
+ * [Conditionals (if-then-else)](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec01_conditionals.ipynb)
  * Looping
  * List Comprehensions
  * Practice Questions
