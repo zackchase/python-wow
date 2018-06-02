@@ -16,11 +16,13 @@ If you disagree with our choices concerning these tradeoffs, I have a stack of p
 
 Throughout these tutorials we are going to use Python3. That's mainly because given the choice, it's better to invest in skills that will be useful in the foreseeable, not in recently departed past.
 
-
-These materials are prepared by Zachary Lipton,
-with help from the open source community,
+These materials are prepared (hopefully!) with help from the open source community,
 as course materials for the Introduction to Python and R course as part of the
 [MSBA program at Carnegie Mellon University's Tepper School of Business](https://analytics.tepper.cmu.edu/).
+
+Author: [Zachary C. Lipton](http://zacklipton.com) (& friends)
+Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
+
 
 ## Table of contents
 
