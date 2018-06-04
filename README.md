@@ -58,18 +58,19 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * Classes
  * Practice Questions
 
-### IO
- * [Writing to Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec01_writing.ipynb)
- * [Reading from Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec02_reading.ipynb)
- * Saving and Loading Python Objects
- * Scraping the Web
-
 
 
 ### Numerical Python with NumPy
  * [The NumPy Library](https://github.com/zackchase/python-wow/blob/master/chapter06_numerical/sec01_numpy.ipynb)
  * Vectors, Matrices, and Tensors
  * Practice Questions
+
+
+### IO
+ * [Writing to Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec01_writing.ipynb)
+ * [Reading from Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec02_reading.ipynb)
+ * Saving and Loading Python Objects
+ * Scraping the Web
 
 
 ### Python projects
