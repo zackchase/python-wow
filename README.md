@@ -43,8 +43,8 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
 
 ### Control Flow
  * [Conditionals (if-then-else)](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec01_conditionals.ipynb)
- * Looping
- * List Comprehensions
+ * [Looping](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec02_looping.ipynb)
+ * [List Comprehensions](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec03_list_comprehensions.ipynb)
  * Practice Questions
 
 ### IO
@@ -63,7 +63,7 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * Practice Questions
 
 ### Numerical Python with NumPy
- * The NumPy Library
+ * [The NumPy Library](https://github.com/zackchase/python-wow/blob/master/chapter06_numerical/sec01_numpy.ipynb)
  * Vectors, Matrices, and Tensors
  * Practice Questions
 
