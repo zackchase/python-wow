@@ -47,10 +47,6 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * [List Comprehensions](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec03_list_comprehensions.ipynb)
  * Practice Questions
 
-### IO
- * Reading and Writing Files
- * Saving and Loading Python Objects
- * Scraping the Web
 
 ### Functions
  * Introduction to Functions
@@ -61,6 +57,14 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * Introduction to Object Oriented Programming
  * Classes
  * Practice Questions
+
+### IO
+ * [Writing to Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec01_writing.ipynb)
+ * [Reading from Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec02_reading.ipynb)
+ * Saving and Loading Python Objects
+ * Scraping the Web
+
+
 
 ### Numerical Python with NumPy
  * [The NumPy Library](https://github.com/zackchase/python-wow/blob/master/chapter06_numerical/sec01_numpy.ipynb)
