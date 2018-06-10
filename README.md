@@ -33,12 +33,12 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * [Strings](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/sec04_strings.ipynb)
  * [Numbers (and Arithmetic)](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/sec05_numbers_arithmetic.ipynb)
  * [Booleans (and Logic)](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/sec06_boolean_logic.ipynb)
- * Practice Questions (COMING SOON)
+ * [Practice Questions](https://github.com/zackchase/python-wow/blob/master/chapter01_introduction/practice_questions.ipynb)
 
 ### Collections
  * [Lists](https://github.com/zackchase/python-wow/blob/master/chapter02_collections/sec01_lists.ipynb)
  * [Dictionaries](https://github.com/zackchase/python-wow/blob/master/chapter02_collections/sec02_dictionaries.ipynb)
- * Practice Questions (COMING SOON)
+ * [Practice Questions](https://github.com/zackchase/python-wow/blob/master/chapter02_collections/practice_questions.ipynb)
 
 
 ### Control Flow
