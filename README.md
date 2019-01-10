@@ -73,5 +73,11 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * Scraping the Web
 
 
+### Parallel Processing
+ * Multithreading
+ * [Multiprocessing](https://github.com/zackchase/python-wow/blob/master/chapter08_parallel_processing/sec02_multiprocessing.ipynb)
+ * Practise Questions
+
+
 ### Python projects
  * ...
