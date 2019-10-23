@@ -1,23 +1,25 @@
 # Python, so easy, wow!
 
-Welcome to Python So Easy Wow.
-The idea for this repo is to teach Python quickly and easily.
-Ideally, you will learn Python so quickly,
-it should be as fast as *you wish* a flight on Wow airlines might be.
+This  repo houses a collection of cheat-sheet/tutorials
+for teaching the basic concepts Python quickly 
+and providing a reference when you need a refresher.
 
-Many books out there aim at comprehensiveness.
-The downside is that they are boring.
-Following our earlier efforts in [MXNet - The Straight Dope](https://github.com/zackchase/mxnet-the-straight-dope),
-I hope to make here a series of Jupyter notebooks which make you dangerous in Python as quickly as possible,
+Following my efforts on [Dive into Deep Learning](https://github.com/d2l-ai/d2l-en),
+I hope the notebooks in this repository will 
+make you dangerous in Python as quickly as possible,
 while boring you as little as possible.
-Sometimes that will mean making tradeoffs on the Pareto-optimal front between completeness and engagingness
-(that favor engagingness).
-If you disagree with our choices concerning these tradeoffs, I have a stack of phone books to sell you.
+Sometimes that will mean making tradeoffs along the Pareto-optimal front 
+between completeness, efficiency, and engagingness.
 
-Throughout these tutorials we are going to use Python3. That's mainly because given the choice, it's better to invest in skills that will be useful in the foreseeable, not in recently departed past.
+Throughout these tutorials we are going to use Python3. 
+That's mainly because given the choice, 
+it's better to invest in skills that will be useful 
+in the foreseeable future. 
 
-These materials are prepared (hopefully!) with help from the open source community,
-as course materials for the Introduction to Python and R course as part of the
+These materials are prepared (hopefully!) 
+with some help from the open source community,
+as course materials for the Introduction to Python and R course
+as part of the 
 [MSBA program at Carnegie Mellon University's Tepper School of Business](https://analytics.tepper.cmu.edu/).
 
 Author: [Zachary C. Lipton](http://zacklipton.com) (& friends)
