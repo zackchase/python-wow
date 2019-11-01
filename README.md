@@ -1,4 +1,4 @@
-# Python, so easy, wow!
+# Python, so easy, wow.
 
 This  repo houses a collection of cheat-sheet/tutorials
 for teaching the basic concepts Python quickly 
