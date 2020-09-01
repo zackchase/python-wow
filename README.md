@@ -61,9 +61,9 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
 
 
 
-### Numerical Python with NumPy
+### Numerical Python with NumPy and Matplotlib
  * [The NumPy Library](https://github.com/zackchase/python-wow/blob/master/chapter06_numerical/sec01_numpy.ipynb)
- * Vectors, Matrices, and Tensors
+ * [Plotting with Matplotlib](https://github.com/zackchase/python-wow/blob/master/chapter06_numerical/sec03_matplotlib.ipynb)
  * Practice Questions
 
 
