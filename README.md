@@ -51,13 +51,12 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
 
 
 ### Functions
- * Introduction to Functions
+ * [Introduction to Functions](https://github.com/zackchase/python-wow/blob/master/chapter04_functions/sec01_functions_basics.ipynb)
  * Recursion
  * Practice Questions
 
 ### Classes
- * Introduction to Object Oriented Programming
- * Classes
+ * [Introduction to Classes / Object Oriented Programming](https://github.com/zackchase/python-wow/blob/master/chapter05_classes/sec01_classes.ipynb)
  * Practice Questions
 
 
