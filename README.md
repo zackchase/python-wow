@@ -47,13 +47,12 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * [Conditionals (if-then-else)](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec01_conditionals.ipynb)
  * [Looping](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec02_looping.ipynb)
  * [List Comprehensions](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/sec03_list_comprehensions.ipynb)
- * Practice Questions
+ * [Practice Questions](https://github.com/zackchase/python-wow/blob/master/chapter03_control_flow/practice_questions.ipynb)
 
 
 ### Functions
  * [Introduction to Functions](https://github.com/zackchase/python-wow/blob/master/chapter04_functions/sec01_functions_basics.ipynb)
- * Recursion
- * Practice Questions
+ * [Practice Questions]()
 
 ### Classes
  * [Introduction to Classes / Object Oriented Programming](https://github.com/zackchase/python-wow/blob/master/chapter05_classes/sec01_classes.ipynb)
@@ -72,6 +71,7 @@ Contact: [@zacharylipton](https://twitter.com/zacharylipton/)
  * [Reading from Files](https://github.com/zackchase/python-wow/blob/master/chapter07_io/sec02_reading.ipynb)
  * Saving and Loading Python Objects
  * Scraping the Web
+ * Practice Questions
 
 
 ### Python projects
