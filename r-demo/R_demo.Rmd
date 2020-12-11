@@ -1,0 +1,120 @@
+---
+title: "R Demo"
+output: html_notebook
+---
+
+This notebook demonstrates some of the basic functionality in R, using COVIDcast data. COVIDcast provides daily access to a range of COVID-related signals, from sources like symptom surveys and medical claims data, as well as standard signals such as confirmed cases and deaths. To run a cell, either press the green play button in the top right corner or press Cmd + Shift + Enter with your cursor in the cell.
+
+If you haven't installed a package you need, install it using `install.packages(PACKAGE_NAME)`. In this tutorial, we'll primarily be working with packages in tidyverse (this includes dplyr for manipulating data, and ggplot2 for plotting).
+
+```{r}
+# You only ever need to run this once.
+install.packages("tidyverse")
+```
+
+Here are the specific packages we'll be using in this tutorial:
+```{r}
+library(dplyr)
+library(ggplot2)
+```
+
+## Load Data
+First, let's load the COVIDcast data as an R dataframe and look at its first few rows. Note that the data_source is fb-survey (responses to a Facebook survey on symptoms each user is facing), and the signal is smoothed-cli (smoothed signal indicating COVID-like illness).
+```{r}
+# We're using an excerpt of the COVIDcast dataset. Load the csv into an R dataframe below:
+df <- read.csv('covidcast_cli_data.csv')
+
+# cast columns containing dates into date types
+df$time_value <- as.Date(df$time_value)
+df$issue <- as.Date(df$issue)
+
+df$geo_value <- as.character(df$geo_value)
+
+# In this tutorial we're only looking at the COVID-like Ilness (CLI) signal. 
+# If you'd like to play with the entire COVIDcast API, install the package and load the data by uncommenting and running the following commands:
+
+# devtools::install_github("cmu-delphi/covidcast", ref = "main",
+#                          subdir = "R-packages/covidcast")  # the covidcast package is not on CRAN yet, so it can be installed using the devtools package:
+# library(covidcast)
+# df <- suppressMessages(
+#   covidcast_signal(data_source = "fb-survey", signal = "smoothed_cli",
+#                    start_day = "2020-05-01", end_day = "2020-12-01",
+#                    geo_type = "state")
+# )
+
+head(df)
+```
+
+
+Right now, there are several columns in the dataset (here's the documentation which includes their meanings: https://cmu-delphi.github.io/covidcast/covidcastR/reference/covidcast_signal.html).
+Let's create a new dataframe with only the columns we care about for the sake of this analysis. To do so, we'll be using the `%>%` operator which ``pipes" the data through from the left hand side into a `select(...)` function on the right hand side. Below, we select columns for: 
+
+* geo_value: the state
+* time_value: the date
+* value: the value for the smoothed CLI signal
+* stderr: standard error for that value
+* sample_size: sample size available in that geography on that day
+
+```{r}
+df <- df %>% select(geo_value, time_value, value, stderr, sample_size)
+
+head(df)
+```
+
+## Basic data operations
+Let's get some basic information about this data:
+```{r}
+# is there any missing data?
+sum(df %>% is.na())  # answer: no
+
+# what's the date range?
+min(df$time_value)
+max(df$time_value)  # answer: 5/1/20 to 12/1/20
+
+# what are the unique geo values?
+df %>% select(geo_value) %>% unique() # answer: 52; includes Puerto Rico (pr) and Washington D.C. (dc) as separate states
+```
+
+
+In exploratory data analysis, it is important to define questions which drive your analysis. In this case, suppose we would like to ask: "Which states have the most data?"
+To get a ranked list of the states and their corresponding total sample sizes, we can group the data frame by `geo_value` and sum the `sample_size` values in each group, and then sort by descending total sample size:
+```{r}
+state_sample_sizes <- df %>% 
+  group_by(geo_value) %>%
+  summarize(total_sample_size = sum(sample_size)) %>%  # compute the sum of sample_sizes for each geo_value
+  arrange(-total_sample_size)  # order from greatest total_sample_size to least
+
+state_sample_sizes[1:10,]
+```
+
+Let's take the top five states with the most data (in this case, it corresponds to the most Facebook survey responses).
+```{r}
+top5 <- (state_sample_sizes[1:5,])$geo_value
+print(top5)
+```
+
+## Plotting
+The ggplot2 package works well with dplyr, letting you create beautiful plots with just a few lines of code. On the flip side, if you'd like something other than the defaults it may take some finagling. 
+Below is an example of how to plot the top five states' CLI values over the entire time range:
+```{r}
+df %>%
+  filter(geo_value %in% top5) %>%
+  ggplot(aes(x=time_value, y=value, color=geo_value)) +
+  geom_line() +
+  ggtitle('CLI signal in top five states with the most data') +
+  xlab('Date') +
+  ylab('CLI Smoothed Signal') +
+  scale_x_date(date_labels="%b",date_breaks="1 month")
+```
+
+To provide some context, we can also look at how much survey data was collected in each state over time:
+```{r}
+df %>%
+  filter(geo_value %in% top5) %>%
+  ggplot(aes(x=time_value, y=sample_size, color=geo_value)) +
+  geom_line() +
+  ggtitle('Sample size from each state of the top five states by sample size') +
+  xlab('Date') +
+  ylab('Sample size') +
+  scale_x_date(date_labels="%b",date_breaks="1 month")
+```
